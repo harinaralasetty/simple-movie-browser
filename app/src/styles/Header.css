@@ -1,0 +1,75 @@
+header {
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.earth-image{
+    width: 45px;
+    padding-right: 5px;
+}
+
+header b{
+    font-size: 28px; 
+    margin:0 ;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: None;
+    vertical-align: center;
+}
+
+.search-box input{
+    padding-left: 10px; 
+    user-select: auto;
+    outline: None; 
+    flex-grow: 1;
+}
+
+.search-box input:focus{
+    border: 2px solid dodgerblue;
+
+}
+
+.cart-image { 
+    width: 45px;
+    padding:10px;
+}
+
+.profile-image {
+    width: 45px;
+    padding-right: 20px;
+}
+
+.search-image {
+    width: 35px; 
+}
+
+.search-box button{ 
+    background-color: transparent;
+    border: None;
+    cursor: pointer;
+    right: 3.5px;
+    position: absolute;
+    align-items: center;
+    vertical-align: center;
+    top: 50%;
+    transform: translateY(-48%);
+}
+
+.search-box button:focus{
+    outline: None
+}

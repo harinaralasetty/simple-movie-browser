@@ -1,0 +1,19 @@
+.record-box {
+    width: 150px; 
+    margin: 10px; 
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.record-box img{
+    width: 100% ;
+    border-bottom: 1px;
+    height: auto;
+}
+
+.record-box h3{
+    margin: 5px; 
+    font-size: 16px;
+    text-align: center;
+}
+

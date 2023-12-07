@@ -5,4 +5,4 @@
 - level 3: recommend movies based on location of the browser and so on 
 - level 4: login support 
 
-!(Smart Movie Browser web page screenshot)[Screenshot%202023-12-07%20at%2019-41-35%20React%20App.png]
+![Smart Movie Browser web page screenshot](Screenshot%202023-12-07%20at%2019-41-35%20React%20App.png)

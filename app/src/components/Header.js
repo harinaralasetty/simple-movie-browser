@@ -19,7 +19,7 @@ function Header({searchTerm, setSearchTerm, handleSearch}) {
   return (
     <header>
         <img src={earthImage} alt="Earth" className="film-image"></img>
-        <b>Smart Movie Browser</b>
+        <b>Simple Movie Browser</b>
         
         <div className='search-box'>
             <input 

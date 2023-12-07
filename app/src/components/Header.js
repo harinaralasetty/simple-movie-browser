@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Header.css'
-import earthImage from '../images/smiling-earth.jpg'
+import earthImage from '../images/file-image.png'
 import cartImage from '../images/cart.png'
 import profileImage from '../images/profile.png'
 import searchImage from '../images/search.png'
@@ -18,8 +18,8 @@ function Header({searchTerm, setSearchTerm, handleSearch}) {
   }
   return (
     <header>
-        <img src={earthImage} alt="Earth" className="earth-image"></img>
-        <b>Earth Store</b>
+        <img src={earthImage} alt="Earth" className="film-image"></img>
+        <b>Smart Movie Browser</b>
         
         <div className='search-box'>
             <input 

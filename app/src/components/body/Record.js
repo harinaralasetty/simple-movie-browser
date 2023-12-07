@@ -12,6 +12,7 @@ function Record({ record }) {
 
   useEffect(() => {
     const initialLikedStatus = Cookies.get(`liked_${record.id}`);
+    console.log(`Initial liked status for record ${record.id}:`, initialLikedStatus);
     if (initialLikedStatus === 'true') {
       setLiked(true);
     }
@@ -21,6 +22,7 @@ function Record({ record }) {
     setLiked((prevLiked) => {
       const newLikedStatus = !prevLiked;
       Cookies.set(`liked_${record.id}`, newLikedStatus, { expires: 7 });
+      console.log(`Liked status for record ${record.id} set to:`, newLikedStatus);
       return newLikedStatus;
     });
   };
@@ -31,7 +33,7 @@ function Record({ record }) {
       <div className="record-details">
         <h3>{record.title}</h3>
         <button className={`like-button ${liked ? 'liked' : ''}`} onClick={handleLikeClick}>
-          ❤️
+          {liked ? '❤️' : '🤍'}
         </button>
       </div>
     </div>
